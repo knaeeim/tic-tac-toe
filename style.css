@@ -1,0 +1,170 @@
+*{
+    background-color: #F8E9E9;
+    text-align: center;
+}
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 40px;
+    border-radius: 30px;
+    width: 270px;
+    text-align: center;
+    background-color: #69995D;
+    color :#030a0b;
+}
+
+.toe-body{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border:none;
+    box-shadow: #69995D 4px 6px 6px 4px;
+    border-radius: 40px;
+    background-color: #EDB6A3;
+    color: #030a0b;
+    font-size: 8vmin;
+}
+
+.box:hover{
+    background-color: #e34747;
+    color: #030a0b;
+}
+
+.box:active{
+    background-color: #c8481e;
+    color: #030a0b;
+}
+
+.rst-btn{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e34747;
+    font-size: 2vmin;
+    color: white;
+}
+
+.rst-btn:hover{
+    background-color: #EDB6A3;
+    color: #030a0b;
+}
+
+.rst-btn:active{
+    background-color: #dda491;
+    color: #030a0b;
+}
+
+.new-btn{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #129a0b;
+    font-size: 2vmin;
+    color: white;
+}
+
+.new-btn:hover{
+    background-color: #EDB6A3;
+    color: #030a0b;
+}
+
+.new-btn:active{
+    background-color: #dda491;
+    color: #030a0b;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.winner-msg{
+    font-size: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        width: 220px;
+        font-size: 5vmin;
+        margin: 20px;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+        gap: 10px;
+    }
+
+    .box {
+        height: 22vmin;
+        width: 22vmin;
+        font-size: 6vmin;
+    }
+
+    .rst-btn, .new-btn {
+        font-size: 3vmin;
+        padding: 10px;
+    }
+
+    .winner-msg {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        width: 180px;
+        font-size: 4vmin;
+    }
+
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+        gap: 8px;
+    }
+
+    .box {
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 5vmin;
+    }
+
+    .rst-btn, .new-btn {
+        font-size: 4vmin;
+        padding: 8px;
+    }
+
+    .winner-msg {
+        font-size: 30px;
+    }
+}
